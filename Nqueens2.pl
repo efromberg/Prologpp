@@ -1,4 +1,4 @@
-zx% Nqueens2.pl		Bratko, p.116,  prefix notation for lists
+% Nqueens2.pl		Bratko, p.116,  prefix notation for lists
 % swipl Nqueens.pl	?- solution(20,S).  works
 % adapt for prologpp   prefix notation
 % N,  level		seconds to first-final answer
