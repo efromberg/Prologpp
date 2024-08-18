@@ -1,7 +1,7 @@
 # Prologpp
 A short implementation of basic Prolog in C++.
 
-Intro
+Intro:
 	Prologpp is an implementation of basic Prolog in C++;
 it is based on a very bare bones implementation in 250 LOC
 by A.Mycroft (Ref.1).   The current version contains a
@@ -27,7 +27,7 @@ introductory texts (Ref.2), after conversion to pre-fix
 notation. A collection of test and demo programs is in the
 /scripts directory.
 
-Compile
+Compile:
 	The S/W consists of 8 files; the Makefile compiles them into
 the executable  prologpp, using the command  $ make.  Each user should 
 edit the Makefile to use his C++ compiler, typically g++ or clang++.
@@ -37,7 +37,7 @@ Version 12.7.6 results in 1 warning message.
 	Compilation using g++ version 9.4.0 on Ubuntu 20.04.6 results
 in no warning messages.
 
-Usage
+Usage:
 	The executable and test file Nqueens2.pl should be in the same
 directory, so the initial test case at the command line is:
 $ ./prologpp Nqueens2.pl	
