@@ -1,0 +1,52 @@
+~/Prolog/Prologpp/  version.txt		
+
+8/13/24
+version 0.9  renamed to Prologpp-09 from Prologpp-08
+	
+
+-----------------------------------------
+version 0.8		9/4/22 start
+	TBI: add Prolog script predicates at begin of database
+		in addition to C++ predicates.
+		
+version 0.7		12/11/21
+
+version 0.6		12/9/21
+	class Num, convert int to long int
+	class Goal, convert car,cdr to gcar, gcdr
+	Nqueens3.pl has list [ ] notation, works
+
+
+version 0.5		11/28/21
+	List notation:  [h |T]
+	cut operator, !
+	arithmetic operators: 
+		=\=, =:=, <, =<, >, >=
+
+
+version 0.4
+	pointers: pTerm,pFunc,pVar, pNum, pVarMap, pClause, pGoal, pProg
+	Atom class not used.
+	cleaned up code.
+	Nqueens2.pl works
+	compiles with g++ -Wall
+	clang gives extra warnings
+
+
+version 0.3
+	deleted Atom class, 
+	Nqueens2.pl works
+	start User_Guide.txt
+	compiles with -Wall, use uint vs. int
+	prologpp-v0.3.tar, 11/18/21
+
+version 0.2
+	add repl()	READ, EVALUATE, PRINT, LOOP
+	prologpp-v0.2.tar, 11/11/21
+
+version 0.1
+	uses instance = nullptr for unbound variables.
+	partial implementation of arithmetic operators
+	prologpp-v0.1.tar	11/8/21
+
+
